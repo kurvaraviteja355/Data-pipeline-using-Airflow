@@ -1,0 +1,4 @@
+docker-compose up airflow-init
+docker build -f ./Dockerfile -t apache/airflow:latest-python3.8 .
+docker-compose up
+docker-compose down
